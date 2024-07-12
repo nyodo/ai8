@@ -1,5 +1,5 @@
 const CryptoJS = require('crypto-js');
-import showMessage from './src/message';
+const showMessage =require ('./src/message');
 
 let questionInput = document.querySelector("#name");
 let sendMsgBtn = document.querySelector("#btn");
